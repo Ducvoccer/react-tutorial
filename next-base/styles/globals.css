@@ -1,0 +1,9 @@
+@tailwind base;
+@layer base {
+  svg {
+    display: inline;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

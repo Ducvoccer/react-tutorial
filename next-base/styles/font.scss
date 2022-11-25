@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body #__next {
+  font-family: var(--font-family);
+  font-weight: var(--normal-font-weight);
+  color: var(--base-text);
+  font-size: var(--base-font-size);
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  overflow-x: hidden;
+  overflow-y: visible;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--bold-font-weight);
+  }
+
+  .text-primary {
+    color: #f09ca6;
+  }
+}
+
+h1 {
+  font-size: var(--heading-1-mobile-font-size);
+
+  @media (min-width: 768px) {
+    font-size: var(--heading-1-font-size);
+  }
+}
+
+h3 {
+  font-size: var(--big-font-size);
+
+  @media (min-width: 768px) {
+    font-size: var(--huge-font-size);
+  }
+}
+
+h5 {
+  font-size: var(--base-font-size);
+
+  @media (min-width: 768px) {
+    font-size: var(--large-font-size);
+  }
+}

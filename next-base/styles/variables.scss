@@ -1,0 +1,106 @@
+:root {
+  --white: #ffffff;
+  --primary-color: #f19ca6;
+  --primary-color-hover: #f5bcc3;
+  --error-color: #ff0000;
+  --base-text: #333333;
+  --font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial,
+    helvetica, 'Lucida Grande', sans-serif;
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
+  --heading-font-size: 24px;
+  --largest-font-size: 20px;
+  --huge-font-size: 18px;
+  --big-font-size: 16px;
+  --large-font-size: 15px;
+  --base-font-size: 14px;
+  --larger-font-size: 13px;
+  --medium-font-size: 12px;
+  --small-font-size: 11px;
+  --tiny-font-size: 10px;
+  --extra-tiny-font-size: 8px;
+  --animation-duration: 0.3s;
+  --antd-wave-shadow-color: #f19ca6;
+
+  --heading-1-font-size: 24px;
+  --heading-1-mobile-font-size: 18px;
+
+  --table-cell-border: #f8f4ed;
+  --table-cell-selected: rgba(241, 156, 166, 0.2);
+
+  --checkbox-border: #dfd6cc;
+
+  --select-border: #cfc6b9;
+  --black-70: rgba(51, 51, 51, 0.7);
+  --black-50: rgba(51, 51, 51, 0.5);
+  --black-5: rgba(0, 0, 0, 0.05);
+  --brown-border: #693f00;
+
+  --white-50: rgba(255, 255, 255, 0.5);
+  --info-cell-border: rgba(51, 51, 51, 0.2);
+
+  // app-header
+  --header-shadow: rgba(0, 0, 0, 0.1);
+  --header-z-index: 100;
+
+  // app sidebar
+  --sidebar-z-index: 101;
+  --sidebar-border: #b3b3b3;
+  --sidebar-item-border: #f8f4ed;
+
+  // app-footer
+  --footer-background: #faf9f8;
+  --footer-separator: #b3b3b3;
+
+  // orders
+  --heading-border: rgba(51, 51, 51, 0.2);
+  --cta-shadow: rgba(0, 0, 0, 0.15);
+  --cta-z-index: 1000;
+
+  // file uploader
+  --upload-zone-background: #c4c4c4;
+
+  // input, textarea
+  --input-background: #faf9f8;
+
+  // order detail
+  --box-background: #f8f4ed;
+  --chat-background: #faf9f7;
+  --chat-date-color: #b3b3b3;
+
+  // photo slider
+  --dot-background: #c4c4c4;
+  --label-background: rgb(90, 90, 91, 0.9);
+
+  // product detail
+  --title-font-size: 24px;
+  --variant-border: #aa7f4d;
+  --variant-background: #f8f4ed;
+  --variant-font-size: 36px;
+  --variant-small-font-size: 26px;
+  --currency-font-size: 22px;
+  --product-button-color: #693f00;
+  --address-color: #f8b551;
+  --location-color: #1eb7e8;
+  --hash-color: #00376b;
+  --input-bg: #f2f2f2;
+  --btn-bg: #c4c4c4;
+
+  // home
+  --meta-background: #cfc6b9;
+  --gray-color: #999999;
+  --badge-color: rgba(255, 9, 9, 0.7);
+  --address-color: #dbb908;
+  --collapse-border: #f2ede6;
+  --input-disabled: rgba(196, 196, 196, 0.502);
+
+  // messages
+  --item-border: #e9e2d9;
+  --chat-background: #faf9f7;
+  --own-chat-background: #eaeaea;
+
+  // status
+  --sale-background: rgb(241, 156, 166, 0.5);
+  --stop-background: #ff0909;
+  --draft-background: rgb(170, 127, 77, 0.7);
+}
